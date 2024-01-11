@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = {extras = ["performance"], version = "*"}
+scikit-learn = "*"
+networkx = "*"
+matplotlib = "*"
+dash = "*"
+dash-bootstrap-components = "*"
+bnlearn = "*"
+pyvis = "==0.3.1"
+langchain = "*"
+openai = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+
+[notebook]
+ipykernel = "*"
+
+[test]
+pytest = "*"
